@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="subscription">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAEgAAAAAABAAAAAAAAEAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>subscription.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="basic">
+    <Position X="9.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAgAAAIAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>subscription.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="mobinet">
+    <Position X="5" Y="4" Width="1.5" />
+    <InheritanceLine Type="subscription" ManuallyRouted="true">
+      <Path>
+        <Point X="8.25" Y="3.074" />
+        <Point X="8.25" Y="3.304" />
+        <Point X="5.75" Y="3.304" />
+        <Point X="5.75" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAEAAAAAAAAAAgAABIAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>subscription.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="smsmax">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <InheritanceLine Type="subscription" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="3.074" />
+        <Point X="8.25" Y="4" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAgAABIAAAQgAAAAAAAAAAAA=</HashCode>
+      <FileName>subscription.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="usage">
+    <Position X="14.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAAAAAAAQQIAAAAhAAAAAAAAAACAQAAgAA=</HashCode>
+      <FileName>usage.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="date" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="user">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <Members>
+      <Field Name="address" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAABAAAAAAAAAAgAIEAAABAAACAAAAAwA=</HashCode>
+      <FileName>user.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="name" />
+      <Field Name="address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="vector&lt;T&gt;">
+    <Position X="17.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgABAAEAAAAIsAAABAAAEAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="string">
+    <Position X="13.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAAAAAAICAAQAAABAACgAAAAAgAAAAAAA=</HashCode>
+      <FileName>string.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="inventory">
+    <Position X="9.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAABAAAAAAAQBQoAAAAAAAAAABAAAAAAAAAAAg=</HashCode>
+      <FileName>inventory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

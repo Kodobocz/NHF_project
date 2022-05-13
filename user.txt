@@ -1,0 +1,3 @@
+0620123456,MobiNet,Nemes Aladar,Rozsa utca 4
+0315646413,SMSMax,Janos Asd,Szep utca 5
+1579879465,MobiNet,Laszlo Adam,Jo utca 13
